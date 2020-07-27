@@ -1,8 +1,8 @@
 char s[' '];
-c,z,t;
+c,z;
 m(x,y) 
 { 
-   t= (y?m(x ^ y, (~x & y) <<!z):x); 
+   c= (y?m(x ^ y, (~x & y) <<!z):x); 
 } 
 p(i)
 {
@@ -18,4 +18,4 @@ main()
     gets(s);
     p(z);
     puts(c?"False":"True");
- }                                                                                                                                                                                                 
+ }
