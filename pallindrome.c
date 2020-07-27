@@ -18,4 +18,4 @@ main()
     gets(s);
     p(z);
     puts(c?"False":"True");
- }
+ }                                                                                                                                                                                                             
