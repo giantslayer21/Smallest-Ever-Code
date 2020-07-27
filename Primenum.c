@@ -18,4 +18,4 @@ main(){
     scanf(l,&b);
     f();
     printf(l,q);
-}                    
+}                                
