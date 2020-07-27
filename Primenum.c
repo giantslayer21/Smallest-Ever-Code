@@ -1,5 +1,4 @@
-#define $ "\x25\d"
-
+char l[]={abs(~'$'),'\d'};
 a,b,z,c,q;
 p(j){
     if(j!=a){
@@ -15,7 +14,8 @@ f(){
     if(a!=b){a=abs(~a),f();}
 }
 main(){
-    scanf($ $,&a,&b);;
+    scanf(l,&a);
+    scanf(l,&b);
     f();
-    printf($,q);
-}                                                                                                                          
+    printf(l,q);
+}                    
