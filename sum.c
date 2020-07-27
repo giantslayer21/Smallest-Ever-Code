@@ -15,4 +15,4 @@ main(){
     z=!z;
     f();
     printf(c,s);
-}        
+}         
