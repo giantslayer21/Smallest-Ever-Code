@@ -1,21 +1,18 @@
-char c[]="!\d";
+char c[' ']={abs(~'$'),'\d'};
 
-e,s,z,o,r;
+e,s,z;
 p(x, y) 
-{ r=y?p(x^y,(x&y)<<!o):x;
+{ s=y?p(x^y,(x&y)<<z):x;
 }
 f(){
     if(!(scanf(c,&e)!=z)){
-        s=p(s,e);
+        p(s,e);
         f();
     }
-    
 }
 main(){
-    
-    c[z]=p('$',!z);
     f();
     z=!z;
     f();
     printf(c,s);
-}                                
+}        
